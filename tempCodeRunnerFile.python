@@ -1,24 +1,22 @@
-base_price = 15
-age = 21
-seat_type = 'Gold'
-show_time = 'Evening'
-
-if age > 17:
-    print('User is eligible to book a ticket')
-
-if age >= 21:
-    print('User is eligible for Evening shows')
+distance_mi= 7
+is_raining = True
+has_bike = True
+has_car= False
+has_ride_share_app=True
+if not distane_mi:
+    print(False)
+elif distance_mi<=1:
+    if not is_raining:
+        print(True)
+     else:
+        print(False)
+elif distance_mi<=6:
+    if has_car and not is_raining:
+        print(True)
+    else:
+        print(False)
 else:
-    print('User is not eligible for Evening shows')
-
-is_member = True
-is_weekend = False
-
-discount = 0
-if is_member:
-    discount = 3
-    print('User qualifies for membership discount')
-else:
-    print("User does not qualify for membership discount")
-
-print('Discount:', discount)
+    if has_car or has_ride_share_app:
+        print(True)
+    else:
+        print(False)
