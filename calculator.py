@@ -11,7 +11,7 @@ num1 = float(input("\nEnter first number: "))
 num2 = float(input("Enter second number: "))
 
 # Display available operations
-print("\nChoose an operation:")
+print("\nChoose an operation:12")
 print("1. Addition (+)")
 print("2. Subtraction (-)")
 print("3. Multiplication (*)")
